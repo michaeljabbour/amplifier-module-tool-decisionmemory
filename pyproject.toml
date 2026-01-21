@@ -1,0 +1,22 @@
+[project]
+name = "amplifier-module-decisionmemory"
+version = "1.0.0"
+description = "Decision memory module for Amplifier - persistent storage of strategic decisions"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "amplifier-core>=0.1.0",
+]
+
+[project.entry-points."amplifier.modules"]
+decisionmemory = "amplifier_module_decisionmemory:mount"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 120
+
+[tool.pyright]
+typeCheckingMode = "basic"
