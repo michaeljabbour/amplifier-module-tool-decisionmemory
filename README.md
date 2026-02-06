@@ -12,14 +12,14 @@ Add to your bundle:
 
 ```yaml
 tools:
-  - module: decisionmemory
-    source: git+https://github.com/michaeljabbour/amplifier-module-decisionmemory@main
+  - module: tool-decisionmemory
+    source: git+https://github.com/michaeljabbour/amplifier-module-tool-decisionmemory@main
 ```
 
 Or for local development:
 
 ```bash
-export AMPLIFIER_MODULE_DECISIONMEMORY=~/dev/amplifier-module-decisionmemory
+export AMPLIFIER_MODULE_TOOL_DECISIONMEMORY=~/dev/amplifier-module-tool-decisionmemory
 ```
 
 ## Storage

@@ -1,5 +1,5 @@
 [project]
-name = "amplifier-module-decisionmemory"
+name = "amplifier-module-tool-decisionmemory"
 version = "1.0.0"
 description = "Decision memory module for Amplifier - persistent storage of strategic decisions"
 readme = "README.md"
@@ -14,7 +14,7 @@ dev = [
 ]
 
 [project.entry-points."amplifier.modules"]
-decisionmemory = "amplifier_module_decisionmemory:mount"
+tool-decisionmemory = "amplifier_module_tool_decisionmemory:mount"
 
 [build-system]
 requires = ["hatchling"]
