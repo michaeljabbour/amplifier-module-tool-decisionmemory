@@ -4,8 +4,13 @@ version = "1.0.0"
 description = "Decision memory module for Amplifier - persistent storage of strategic decisions"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = [
-    "amplifier-core>=0.1.0",
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "amplifier-core @ git+https://github.com/microsoft/amplifier-core@main",
+    "pytest>=7.0",
+    "pytest-asyncio>=0.21",
 ]
 
 [project.entry-points."amplifier.modules"]
